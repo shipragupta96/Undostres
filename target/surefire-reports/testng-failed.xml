@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.test.TestUndostres]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.test.TestUndostres">
+        <methods>
+          <include name="cellDetails"/>
+          <include name="rechargeCell"/>
+          <include name="signInForPayment"/>
+          <include name="initialize"/>
+          <include name="cardPayment"/>
+          <include name="finalDetails"/>
+          <include name="successfulPayment"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="launchUndestores"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- com.test.TestUndostres -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.test.TestUndostres] -->
