@@ -3,7 +3,7 @@
 <suite name="UndostresSuite">       
   <test name="Undostres">
 	 <classes>
-	   <class name="UndostresSuite.com.test.TestUndostres"/>
+	   <class name="com.test.TestUndostres"/>
 	 </classes>
    </test>
 </suite>
