@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-com.test.TestUndostres">
-              <span class="suite-name border-failed">com.test.TestUndostres</span>
+              <span class="suite-name border-skipped">com.test.TestUndostres</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 1 failed,  6 skipped,  </span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-com.test.TestUndostres" class="hide-methods failed suite-com.test.TestUndostres"> (hide)</a> <!-- hide-methods failed suite-com.test.TestUndostres -->
-                      <a href="#" panel-name="suite-com.test.TestUndostres" class="show-methods failed suite-com.test.TestUndostres"> (show)</a> <!-- show-methods failed suite-com.test.TestUndostres -->
-                    </span>
-                    <div class="method-list-content failed suite-com.test.TestUndostres">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.test.TestUndostres" title="com.test.TestUndostres" hash-for-method="launchUndestores">launchUndestores</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-com.test.TestUndostres -->
+                    <span class="method-stats">7 methods,  7 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -126,6 +112,11 @@
                       <span>
                         <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-com.test.TestUndostres" title="com.test.TestUndostres" hash-for-method="finalDetails">finalDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.test.TestUndostres" title="com.test.TestUndostres" hash-for-method="launchUndestores">launchUndestores</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -155,25 +146,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-com.test.TestUndostres" class="panel com.test.TestUndostres">
-          <div class="suite-com.test.TestUndostres-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.test.TestUndostres</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="launchUndestores">
-                  </a> <!-- launchUndestores -->
-                  <span class="method-name">launchUndestores</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.test.TestUndostres.launchUndestores(TestUndostres.java:99)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-com.test.TestUndostres-class-failed -->
           <div class="suite-com.test.TestUndostres-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -199,6 +171,13 @@
                   <a name="finalDetails">
                   </a> <!-- finalDetails -->
                   <span class="method-name">finalDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchUndestores">
+                  </a> <!-- launchUndestores -->
+                  <span class="method-name">launchUndestores</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -277,19 +256,19 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'launchUndestores')
+data.setCell(0, 1, 'cardPayment')
 data.setCell(0, 2, 'com.test.TestUndostres')
-data.setCell(0, 3, 34143);
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'rechargeCell')
+data.setCell(1, 1, 'launchUndestores')
 data.setCell(1, 2, 'com.test.TestUndostres')
 data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'cellDetails')
+data.setCell(2, 1, 'rechargeCell')
 data.setCell(2, 2, 'com.test.TestUndostres')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'successfulPayment')
+data.setCell(3, 1, 'finalDetails')
 data.setCell(3, 2, 'com.test.TestUndostres')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
@@ -297,18 +276,18 @@ data.setCell(4, 1, 'signInForPayment')
 data.setCell(4, 2, 'com.test.TestUndostres')
 data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'cardPayment')
+data.setCell(5, 1, 'successfulPayment')
 data.setCell(5, 2, 'com.test.TestUndostres')
 data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'finalDetails')
+data.setCell(6, 1, 'cellDetails')
 data.setCell(6, 2, 'com.test.TestUndostres')
 data.setCell(6, 3, 0);
 window.suiteTableData['com.test.TestUndostres']= { tableData: data, tableDiv: 'times-div-com.test.TestUndostres'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 2 ms</span>
               <div id="times-div-com.test.TestUndostres">
               </div> <!-- times-div-com.test.TestUndostres -->
             </div> <!-- times-div -->
@@ -336,25 +315,15 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.TestUndostres</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">clear</span>
-                <span class="method-start">5849 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchUndestores</span>
-                <span class="method-start">5870 ms</span>
+                <span class="method-start">6631 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=launchUndestores status=FAILURE method=TestUndostres.launchUndestores()[pri:0, inst...)</span>
-                <span class="method-start">40016 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -56,9 +56,8 @@ public class TestUndostres {
 	@BeforeTest
 	public void clear() {
 		System.out.println("clear() : method start");
-		System.out.println(configProp.getProperty("SCREENSHOT_PATH"));
-		testPage.removeFiles(configProp.getProperty("SCREENSHOT_PATH")); // clearing
-																			// screenshots
+		testPage.removeFiles(configProp.getProperty("SCREENSHOT_PATH")); //clearing screenshots
+		testPage.removeFiles(configProp.getProperty("REPORTS_PATH"));
 		System.out.println("clear() : method end");
 	}
 

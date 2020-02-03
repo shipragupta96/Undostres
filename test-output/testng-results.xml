@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52949" started-at="2020-02-03T07:10:58Z" finished-at="2020-02-03T07:11:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52949" started-at="2020-02-03T07:10:58Z" finished-at="2020-02-03T07:11:51Z">
+      <class name="com.test.TestUndostres">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.TestUndostres@475530b9]" name="initialize" is-config="true" duration-ms="4883" started-at="2020-02-03T12:40:53Z" finished-at="2020-02-03T12:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:com.test.TestUndostres@475530b9]" name="clear" is-config="true" duration-ms="23" started-at="2020-02-03T12:40:58Z" finished-at="2020-02-03T12:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method status="PASS" signature="launchUndestores()[pri:0, instance:com.test.TestUndostres@475530b9]" name="launchUndestores" duration-ms="15061" started-at="2020-02-03T12:40:58Z" finished-at="2020-02-03T12:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUndestores -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.TestUndostres@475530b9]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-02-03T12:41:13Z" finished-at="2020-02-03T12:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchUndestores status=SUCCESS method=TestUndostres.launchUndestores()[pri:0, instance:com.test.TestUndostres@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="rechargeCell()[pri:0, instance:com.test.TestUndostres@475530b9]" name="rechargeCell" duration-ms="2281" started-at="2020-02-03T12:41:13Z" depends-on-methods="com.test.TestUndostres.launchUndestores" finished-at="2020-02-03T12:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rechargeCell -->
+        <test-method status="PASS" signature="cellDetails()[pri:0, instance:com.test.TestUndostres@475530b9]" name="cellDetails" duration-ms="665" started-at="2020-02-03T12:41:16Z" depends-on-methods="com.test.TestUndostres.rechargeCell" finished-at="2020-02-03T12:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cellDetails -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.TestUndostres@475530b9]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-03T12:41:16Z" finished-at="2020-02-03T12:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rechargeCell status=SUCCESS method=TestUndostres.rechargeCell()[pri:0, instance:com.test.TestUndostres@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.TestUndostres@475530b9]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-02-03T12:41:16Z" finished-at="2020-02-03T12:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cellDetails status=SUCCESS method=TestUndostres.cellDetails()[pri:0, instance:com.test.TestUndostres@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="signInForPayment()[pri:0, instance:com.test.TestUndostres@475530b9]" name="signInForPayment" duration-ms="15240" started-at="2020-02-03T12:41:16Z" depends-on-methods="com.test.TestUndostres.cellDetails" finished-at="2020-02-03T12:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInForPayment -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.TestUndostres@475530b9]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-03T12:41:32Z" finished-at="2020-02-03T12:41:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInForPayment status=SUCCESS method=TestUndostres.signInForPayment()[pri:0, instance:com.test.TestUndostres@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="cardPayment()[pri:0, instance:com.test.TestUndostres@475530b9]" name="cardPayment" duration-ms="5903" started-at="2020-02-03T12:41:32Z" depends-on-methods="com.test.TestUndostres.signInForPayment" finished-at="2020-02-03T12:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardPayment -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.TestUndostres@475530b9]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-03T12:41:38Z" finished-at="2020-02-03T12:41:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cardPayment status=SUCCESS method=TestUndostres.cardPayment()[pri:0, instance:com.test.TestUndostres@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="finalDetails()[pri:0, instance:com.test.TestUndostres@475530b9]" name="finalDetails" duration-ms="3512" started-at="2020-02-03T12:41:38Z" depends-on-methods="com.test.TestUndostres.cardPayment" finished-at="2020-02-03T12:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalDetails -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.TestUndostres@475530b9]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-03T12:41:41Z" finished-at="2020-02-03T12:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=finalDetails status=SUCCESS method=TestUndostres.finalDetails()[pri:0, instance:com.test.TestUndostres@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="successfulPayment()[pri:0, instance:com.test.TestUndostres@475530b9]" name="successfulPayment" duration-ms="10236" started-at="2020-02-03T12:41:41Z" depends-on-methods="com.test.TestUndostres.finalDetails" finished-at="2020-02-03T12:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulPayment -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.TestUndostres@475530b9]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-03T12:41:51Z" finished-at="2020-02-03T12:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulPayment status=SUCCESS method=TestUndostres.successfulPayment()[pri:0, instance:com.test.TestUndostres@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestUndostres@475530b9]" name="tearDown" is-config="true" duration-ms="1285" started-at="2020-02-03T12:41:51Z" finished-at="2020-02-03T12:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TestUndostres -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -12,9 +12,7 @@
           <include name="cardPayment"/>
           <include name="finalDetails"/>
           <include name="successfulPayment"/>
-          <include name="takeScreenShotOnFailure"/>
           <include name="launchUndestores"/>
-          <include name="clear"/>
         </methods>
       </class> <!-- com.test.TestUndostres -->
     </classes>
